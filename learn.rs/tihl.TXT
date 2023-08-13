@@ -1,0 +1,19 @@
+sol 53143.31
+1. In rust, numbers are held in defined structures which look like pythons objects( a number in python is a object n: int = 30; here int is a object which has methods)
+
+these defines structures in rust also have methods on them which can be used to manipulate the values of the value of the number and perform calculations with.
+
+example: 
+   - you can make a number value object this way
+        10_u32 or 10u32 to denote a value of 10 on a u32 integer type
+		looks cool to me!!!
+		
+   - then perform a method like:
+	    10_u32.ilog10()
+		to return the baseX logarithm of the number.
+
+		- just like python's;
+		    num: int = 30
+			num.as_integer_ratio()
+
+2. i should first underscore variables which i am not planning on using them. example: _name; this way the compiler will not shout unused vars to my face
